@@ -1,0 +1,23 @@
+{
+  "name": "shopper-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --config nodemon-http-service.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "8.4.0",
+    "@types/node": "18.11.9",
+    "nodemon": "2.0.12",
+    "ts-node": "10.9.1",
+    "tsconfig-paths": "4.1.2",
+    "typescript": "4.9.3"
+  }
+}
